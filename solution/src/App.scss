@@ -1,1 +1,16 @@
 @import './scss/_reset.scss','./scss/_variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body{
+    background-color: $backgroundColor;
+}    
+
+h1{
+    font-family: 'Amatic SC', cursive;
+}
+
+p{
+    font-family: 'Architects Daughter', cursive;
+
+}

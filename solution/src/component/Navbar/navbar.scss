@@ -1,0 +1,21 @@
+@import '../../scss/variables';
+
+
+.navbar{
+    background-color: $cardNavBgColor;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    a{
+        color:$backgroundColor;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1rem;
+        &:hover{
+            color: #000;
+            background-color: $backgroundColor;
+        }
+    }
+}
