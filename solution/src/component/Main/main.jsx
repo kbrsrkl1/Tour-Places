@@ -10,6 +10,11 @@ const Main = () => {
                     <div className='cards'>
                         <h1>{item.title}</h1>
                         <img src={item.image} alt="" />
+                        <div className="card-over">
+                            <p>
+                                {item.desc}
+                            </p>
+                        </div>
                     </div>
                 )
             }

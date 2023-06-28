@@ -1,5 +1,11 @@
 @import '../../scss/variables';
 
-.card-container {
+.card-container .cards{
     text-align: center;
+    border-radius: 20px;
+    
+}
+
+.card-container .cards .img{
+    object-position: 50px 50px;
 }
