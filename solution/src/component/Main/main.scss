@@ -4,14 +4,57 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+    
+
+    .cards{
+        background-color: $cardNavBgColor;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 3px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        position: relative;
+        &:hover .card-over{
+            transform: translateY(0%);
+        }
+    }
+
+    .title{
+        color: #fff;
+        font-size: 1 rem;
+        padding: 1 rem;
+    }
 
 
-img{
+    img{
     width: 500px;
     height: 350px;
-}
-
-.card-over{
+    border-radius: 5px;
+    object-fit: cover;
+    &:hover{
+        filter: grayscale(100%);
+    }
+    }
+    .card-over{
     width: 500px;
-}
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 3;
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+    transform: translateY(100%);
+    z-index: 1;
+    transition: transform 0.7s ease-in-out;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
