@@ -44,7 +44,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![Project 001 Snapshot](tour-project.gif)
+![Tour-Places](tour-project.gif)
 
 ## Objective
 
